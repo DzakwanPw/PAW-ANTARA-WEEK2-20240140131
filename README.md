@@ -1,8 +1,4 @@
-# Jelajah Website
- 
-Ini contoh website simpel pakai HTML semantic + sedikit CSS/JS buat carousel.
- 
-## Elemen semantic yang dipake
+Elemen semantic yang dipake
  
 **`<header>`**
 Bagian paling atas web, isinya logo sama menu navigasi. Posisinya fixed di atas jadi selalu keliatan pas di-scroll.
