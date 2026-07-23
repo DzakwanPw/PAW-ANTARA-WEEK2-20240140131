@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jelajah — Temukan Destinasi Favoritmu</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+
+    <!-- ===== 1. HEADER ===== -->
+    <header class="site-header">
+      <nav class="nav">
+        <a href="#" class="brand">
+          <span class="logo-dot"></span>
+          Jelajah
+        </a>
+        <!-- ===== 2. NAV ===== -->
+        <ul class="nav-links">
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#destinasi-section">Destinasi</a></li>
+          <li><a href="#about-section">Tentang</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="hero" class="hero" aria-label="Sorotan destinasi">
+      <div class="carousel-inner" id="carousel-inner">
+        <figure class="carousel-slide">
+          <img
+            src="https://picsum.photos/id/1015/1600/900"
+            alt="Pemandangan sungai dan pegunungan" />
+        </figure>
+        <figure class="carousel-slide">
+          <img
+            src="https://picsum.photos/id/1043/1600/900"
+            alt="Ladang bunga matahari" />
+        </figure>
+        <figure class="carousel-slide">
+          <img
+            src="https://picsum.photos/id/1039/1600/900"
+            alt="Pantai dan garis pantai" />
+        </figure>
+      </div>
+
+      <div class="hero-caption">
+        <span>Panduan Perjalanan</span>
+        <h1>Jelajahi Tempat Baru, Ciptakan Cerita Baru</h1>
+        <p>
+          Temukan rekomendasi destinasi wisata terbaik lengkap dengan tips
+          perjalanan sebelum kamu berangkat.
+        </p>
+      </div>
+
+      <div class="carousel-dots" id="carousel-dots">
+        <button class="carousel-dot active" aria-label="Slide 1"></button>
+        <button class="carousel-dot" aria-label="Slide 2"></button>
+        <button class="carousel-dot" aria-label="Slide 3"></button>
+      </div>
+    </section>
+
+    <!-- ===== 3. MAIN ===== -->
+    <main>
+      <!-- ===== 4. SECTION ===== -->
+      <section id="destinasi-section" aria-labelledby="destinasi-heading">
+        <div class="section-heading">
+          <span class="label">Pilihan Kami</span>
+          <h2 id="destinasi-heading">Destinasi Populer</h2>
+          <p>Tiga tempat yang paling sering dicari oleh para pelancong.</p>
+        </div>
+
+        <div class="destination-grid">
+          <!-- ===== 5. ARTICLE ===== -->
+          <article class="destination-card">
+            <img
+              src="https://picsum.photos/id/1018/500/400"
+              alt="Lembah pegunungan hijau" />
+            <div class="destination-body">
+              <h3>Lembah Hijau</h3>
+              <p>
+                Cocok untuk pendakian ringan dan menikmati udara sejuk di pagi
+                hari.
+              </p>
+              <button class="btn">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img
+              src="https://picsum.photos/id/1036/500/400"
+              alt="Danau di kaki gunung" />
+            <div class="destination-body">
+              <h3>Danau Kaki Gunung</h3>
+              <p>
+                Spot favorit untuk berkemah dan menikmati matahari terbenam
+                di tepi danau.
+              </p>
+              <button class="btn">Lihat Detail</button>
+            </div>
+          </article>
+
+          <article class="destination-card">
+            <img
+              src="https://picsum.photos/id/1050/500/400"
+              alt="Pantai berpasir putih" />
+            <div class="destination-body">
+              <h3>Pantai Pasir Putih</h3>
+              <p>
+                Tempat yang pas untuk bersantai dengan air laut yang jernih
+                dan tenang.
+              </p>
+              <button class="btn">Lihat Detail</button>
+            </div>
+          </article>
+        </div>
+
+        <!-- ===== ASIDE (elemen tambahan) ===== -->
+        <aside class="travel-tips" aria-labelledby="tips-heading">
+          <h3 id="tips-heading">Tips Sebelum Berangkat</h3>
+          <ul>
+            <li>Cek prakiraan cuaca beberapa hari sebelum keberangkatan.</li>
+            <li>Siapkan dokumen perjalanan dan salinannya.</li>
+            <li>Bawa perlengkapan sesuai medan yang akan dikunjungi.</li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="about-section" aria-labelledby="about-heading">
+        <div class="about-card">
+          <h2 id="about-heading">Tentang Jelajah</h2>
+          <p>
+            Jelajah adalah panduan perjalanan yang membantu kamu menemukan
+            destinasi wisata terbaik, lengkap dengan tips praktis agar
+            perjalananmu lebih nyaman dan menyenangkan.
+          </p>
+          <div class="contact-pill">
+            <svg fill="currentColor" viewBox="0 0 20 20">
+              <path
+                d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+              <path
+                d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+            </svg>
+            <a href="mailto:dzakwanpw@gmail.com">dzakwanpw@gmail.com</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ===== 6. FOOTER ===== -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="logo-dot" style="background:#2563eb;width:10px;height:10px;border-radius:50%;"></span>
+          Jelajah
+        </div>
+        <p>&copy; 2026 Jelajah. Semua hak dilindungi.</p>
+      </div>
+    </footer>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
